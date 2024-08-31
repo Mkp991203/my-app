@@ -1,0 +1,40 @@
+<p>create-student works!</p>
+
+<div class="parent">
+    <h1>Create Student</h1>
+
+    <form action="" [formGroup]="studentcardsForm">
+        <label for="">Name</label>
+        <input type="text" formControlName="name">
+        <br>
+        <label for="">Phone</label>
+        <input type="text" formControlName="phone">
+        <br>
+        <label for="">City</label>
+        <input type="text" formControlName="city">
+        <br>
+        <label for="">D.O.B</label>
+        <input type="text" formControlName="dob">
+        <br>
+        <label for="">Profile_Picture</label>
+        <input type="text" formControlName="profile_picture">
+        <br>
+        <label for="">Email</label>
+        <input type="text" formControlName="email">
+        <br>
+        <label for="">School_Logo</label>
+        <input type="text" formControlName="school_logo">
+        <br>
+        <label for="">School_Name</label>
+        <input type="text" formControlName="school_name">
+        <br>
+        <label for="">School_City</label>
+        <input type="text" formControlName="school_city">
+        <br>
+        <label for="">School_Pin</label>
+        <input type="text" formControlName="school_pin">
+        <br>
+
+        <button (click)="createstudent()">Create Student</button>
+    </form>
+</div>

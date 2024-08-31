@@ -1,0 +1,68 @@
+/* Style for the parent div containing the form */
+.parent {
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the form labels */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+h1{
+     text-align: center;
+     color: green;
+}
+
+/* Style for the form inputs */
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Hover effect for the inputs */
+form input[type="text"]:hover {
+    border-color: #888;
+}
+
+/* Focus effect for the inputs */
+form input[type="text"]:focus {
+    border-color: #555;
+    outline: none;
+}
+
+/* Style for the Create button */
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Hover effect for the Create button */
+form button:hover {
+    background-color: #4cae4c;
+}
+
+/* Style for the button focus */
+form button:focus {
+    outline: none;
+}

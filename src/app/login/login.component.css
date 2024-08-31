@@ -1,0 +1,73 @@
+/* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #29518d6f;
+}
+
+/* Centering the login box */
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(35, 173, 237);
+}
+
+/* Styling the login box */
+.login {
+    background-color: rgb(226, 227, 228);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* Styling the form elements */
+.login h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: black;
+     
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login input[type="password"]{
+    opacity: 0;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login button:hover {
+    background-color: cornflowerblue;
+}

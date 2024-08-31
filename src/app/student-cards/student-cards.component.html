@@ -1,0 +1,68 @@
+<!-- <p>student-cards works!</p> -->
+<div class="parent">
+    <div class="search">
+        <input type="text" [(ngModel)]="term" (keyup)="filter()"
+        placeholder="search student">
+
+        <label for="">column:</label>
+        <select name="" id="" [(ngModel)]="column">
+            <option>name</option>
+            <option>city</option>
+            <option>email</option>
+            <option>school_name</option>
+        </select>
+
+        <label for="">Order:</label>
+        <select name="" id="" [(ngModel)]="order">
+            <option value="asc">Ascending</option>
+            <option value="desc">Descending</option>
+        </select>
+
+        <button class="sort" (click)="sort()">Sort</button>
+        <br><br>
+
+        <label for="">Count:</label>
+        <input type="number" [(ngModel)]="count">
+        <label for="">Page:</label>
+        <input type="number" [(ngModel)]="page">
+        <button class="limit"   (click)="limit()">limit</button>
+    </div>
+   
+    <br>
+    <div class="box" *ngFor="let data of studentcards">
+        <div class="top">
+            <div class="logo">
+                <img src="{{data.school_logo}}" alt="" width="50px" height="50px">
+            </div>
+            <div class="school">
+                <h5> {{data.school_name}}</h5>
+                <h6> {{data.school_city}}</h6>
+                <h6> {{data.school_pin}}</h6> 
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="details">
+                <label for="">Name  : {{data.name}}</label>
+                <label for="">Phome : {{data.phone}}</label>
+                <label for="">City  : {{data.city}}</label>
+                <label for="">D.O.B : {{data.dob}}</label>
+                <label for="">Email : {{data.email}}</label>
+            </div>
+            <div class="imagebox">
+                <img src="{{data.profile_picture}}" alt="" width="140px" height="140px">
+            </div>
+        </div>
+        <div class="down">
+            <div class="view">
+                <button>view</button>
+            </div>
+            <div class="edit">
+                <button>edit</button>
+            </div>
+           <div class="delete">
+            <button>delete</button>
+           </div>
+        </div>
+    
+    </div>
+</div>

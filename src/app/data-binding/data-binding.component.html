@@ -1,0 +1,22 @@
+<p>data-binding works!</p>
+
+<!-- Interpolation -->
+
+<h1>My name is {{name}}</h1>
+<h1>My Age is {{age}}</h1>
+<h1>Indian: {{isIndian}}</h1>
+
+<!-- Property Binding -->
+<button [disabled]="!isValid">submit</button>
+<br>
+<img [src]="url" alt=""><br>
+
+<!-- Event Binding -->
+ <button (click)="submit()">submit</button>
+ <input (keypress)="typing()" type="text"><br>
+
+
+<!-- Two Way Data Binding -->
+<label for="">phone</label>
+<input type="text" [(ngModel)]="phone">
+<p>{{phone}}</p>

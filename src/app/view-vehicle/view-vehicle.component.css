@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.car {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 700px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #007BFF; /* Highlight the vehicle name */
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #333;
+    text-transform: capitalize; /* Ensures the first letter of each word is capitalized */
+}

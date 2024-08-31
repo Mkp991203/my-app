@@ -1,0 +1,59 @@
+.parent {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e6e6fa;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+.parent .child {
+    text-align: center;
+}
+
+.parent h1 {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.parent label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.parent input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.parent button {
+    width: 100px;
+    padding: 10px;
+    margin: 10px 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.parent button:hover {
+    background-color: #218838;
+}
+
+.parent h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}

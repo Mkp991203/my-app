@@ -1,0 +1,24 @@
+<div class="parent">
+    <div class="box">
+    <div class="top">
+      <h1>  Body Mass Index(BMI) Calculator</h1>
+    </div>
+   
+    <div class="bottom">
+        
+            <div class="calculator">
+                <label for="">Height:</label>
+                <input type="number" [(ngModel)]="hgt">
+                <br>
+                <label for="">Weight:</label>
+                <input type="number" [(ngModel)]="wgt">
+                <br>
+                <br>
+                <button (click)="calculate()">Calculate</button>
+                <br>
+                <h3> Result is {{result}}</h3>
+        </div>
+       
+    </div>
+    </div>
+</div>

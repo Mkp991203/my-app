@@ -1,0 +1,82 @@
+/* Reset and basic styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* Parent container to hold the layout */
+.parent {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left-side navigation styling */
+.left {
+    background-color: slategrey;
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-transform: capitalize;
+    overflow: auto;
+}
+
+.left h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    text-shadow: lightslategray;
+    color: black;
+}
+
+.left hr {
+    border: 0;
+    height: 1px;
+    background-color: #0d5acd;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.left a {
+    color:white;
+    text-decoration: none;
+    margin: 10px 0;
+    display: block;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.left a:hover {
+    color: #d31818;
+}
+
+.left button {
+    margin-top: auto;
+    padding: 10px;
+    background-color: rgb(18, 66, 113);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: background-color 0.3s ease;
+}
+
+.left button:hover {
+    background-color: rgb(13, 16, 22);
+}
+
+/* Right-side content area styling */
+.right {
+    background-color: skyblue;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}

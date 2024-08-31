@@ -1,0 +1,27 @@
+/* Styles for the parent div */
+.parent {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    background-color: #efecec;
+}
+
+/* Styles for each child div */
+.child {
+    font-size: 16px;
+    margin: 5px 0;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    transition: color 0.3s ease;
+}
+
+/* Style for completed mails (in grey) */
+.child[ngStyle*="'grey'"] {
+    color: darkgrey;
+    background-color: bisque;
+}
+
+/* Style for incomplete mails (in black) */
+.child[ngStyle*="'black'"] {
+    color: black;
+}

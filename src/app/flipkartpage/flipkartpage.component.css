@@ -1,0 +1,55 @@
+/* Parent container */
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between the boxes */
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Each box */
+.box {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 220px; /* Controls the box width */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Image inside the box */
+.box img {
+    border-radius: 8px;
+    max-width: 100%;
+    height:;
+}
+
+/* Category heading */
+.box h3 {
+    font-size: 18px;
+    color: #333333;
+    margin: 12px 0 8px;
+}
+
+/* Title text */
+.box p {
+    font-size: 16px;
+    color: #330fd4;
+    margin-bottom: 12px;
+}
+
+/* Price text */
+.box p:last-child {
+    font-weight: bold;
+    color: #d32f2f;
+    margin-bottom: 20px;
+}
+
+/* Hover effects for the box */
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
