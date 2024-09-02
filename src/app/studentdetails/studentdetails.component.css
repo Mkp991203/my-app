@@ -1,0 +1,94 @@
+/* Container for the form */
+.student.form {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main heading */
+.student.form h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: royalblue;
+}
+
+/* Label styles */
+.student.form label {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: black;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Input styles */
+.student.form input[type="text"],
+.student.form input[type="number"],
+.student.form input[type="date"],
+.student.form input[type="radio"] {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styles for radio buttons */
+.student.form input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Button styles */
+.student.form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.student.form button:hover {
+    background-color: #4cae4c;
+}
+
+/* Address and marks section styling */
+.student.form .form-group {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .student.form {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .student.form {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+.error{
+    color: crimson;
+}

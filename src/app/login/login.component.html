@@ -2,15 +2,20 @@
     <div class="login">
         <h1>login page</h1>
     <form [formGroup]="loginForm">
-        <label for="">Email</label>
+        <label for="">Email :</label>
         <input type="text" formControlName="email">
         <br><br>
-        <label for="">password</label>
-        <input type="text"  formControlName="password">
+        <label for="">password :</label>
+        <input type="password"  formControlName="password">
+        <div *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.invalid">
+            <p class="error" *ngIf="loginForm.get('password')?.errors?.['required']">Passwaord Required</p>
+            <p class="error" *ngIf="loginForm.get('password')?.errors?.['pattern']">Password should contain 1Char, 1Num, 1Spec</p>
+        </div>
         <br><br>
         <button (click)="login()">login</button>
         <br><br>
         <label for="">Forgotpassword?</label>
+     
     </form>
 </div>
 </div>

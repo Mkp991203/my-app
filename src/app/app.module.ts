@@ -29,6 +29,8 @@ import { StudentCardsComponent } from './student-cards/student-cards.component';
 import { CreateStudentComponent } from './create-student/create-student.component';
 import { ViewVehicleComponent } from './view-vehicle/view-vehicle.component';
 import { ViewBankaccountComponent } from './view-bankaccount/view-bankaccount.component';
+import { CreateUserComponent } from './create-user/create-user.component';
+import { StudentdetailsComponent } from './studentdetails/studentdetails.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +58,9 @@ import { ViewBankaccountComponent } from './view-bankaccount/view-bankaccount.co
     StudentCardsComponent,
     CreateStudentComponent,
     ViewVehicleComponent,
-    ViewBankaccountComponent
+    ViewBankaccountComponent,
+    CreateUserComponent,
+    StudentdetailsComponent
   ],
   imports: [
     BrowserModule,

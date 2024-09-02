@@ -26,6 +26,8 @@ import { AuthenticationGuard } from './authentication.guard';
 import { ViewVehicleService } from './view-vehicle.service';
 import { ViewVehicleComponent } from './view-vehicle/view-vehicle.component';
 import { ViewBankaccountComponent } from './view-bankaccount/view-bankaccount.component';
+import { CreateUserComponent } from './create-user/create-user.component';
+import { StudentdetailsComponent } from './studentdetails/studentdetails.component';
 
 const routes: Routes = [
   {path:'login', component:LoginComponent},
@@ -53,6 +55,8 @@ const routes: Routes = [
     {path:'create-student', component:CreateStudentComponent},
     {path:'view-vehicle/:id', component:ViewVehicleComponent},
     {path:'edit-vehicle/:id', component:CreateVehicleComponent},
+    {path:'create-user', component:CreateUserComponent},
+    {path:'studentdetails', component:StudentdetailsComponent},
     {path:'', component:WelcomeComponent}
 
   ]},
