@@ -16,7 +16,7 @@ export class StudentdetailsComponent {
     dob: new FormControl('', [Validators.required,]),
 
     address: new FormGroup({
-      addressline: new FormControl('', [Validators.required,]),
+      addressline: new FormControl('', [Validators.required]),
       city: new FormControl('', [Validators.required]),
       state: new FormControl('', [Validators.required]),
       pincode: new FormControl('', [Validators.required, Validators.min(100000), Validators.max(999999)]),

@@ -1,0 +1,44 @@
+/* Container for the textarea and character count */
+.textbox {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Textarea styling */
+.textbox textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+    resize: vertical; /* Allows vertical resizing only */
+}
+
+/* Character count styling */
+.char-count {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+    text-align: right;
+}
+
+/* Optional: styles for handling focus and hover */
+.textbox textarea:focus {
+    border-color: #0275d8;
+    outline: none;
+}
+
+/* Optional: styles for the character count container */
+.textbox div {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}

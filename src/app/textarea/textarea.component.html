@@ -1,0 +1,10 @@
+<p>textarea works!</p>
+
+<div class="textbox">
+    <textarea name="" id="" 
+    cols="30" rows="10" (keyup)="countchar()" 
+    [(ngModel)]="text" maxlength="{{max}}">
+    </textarea>
+
+    <span class="char-count">{{count}} / {{max}}</span>
+</div>

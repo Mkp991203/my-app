@@ -31,6 +31,12 @@ import { ViewVehicleComponent } from './view-vehicle/view-vehicle.component';
 import { ViewBankaccountComponent } from './view-bankaccount/view-bankaccount.component';
 import { CreateUserComponent } from './create-user/create-user.component';
 import { StudentdetailsComponent } from './studentdetails/studentdetails.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
+import { RatingComponent } from './rating/rating.component';
+import { Calculator2Component } from './calculator2/calculator2.component';
+import { OperationsComponent } from './operations/operations.component';
+import { TextareaComponent } from './textarea/textarea.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +66,13 @@ import { StudentdetailsComponent } from './studentdetails/studentdetails.compone
     ViewVehicleComponent,
     ViewBankaccountComponent,
     CreateUserComponent,
-    StudentdetailsComponent
+    StudentdetailsComponent,
+    ParentComponent,
+    ChildComponent,
+    RatingComponent,
+    Calculator2Component,
+    OperationsComponent,
+    TextareaComponent
   ],
   imports: [
     BrowserModule,

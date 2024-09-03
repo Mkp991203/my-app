@@ -10,14 +10,14 @@ export class FlipkartComponent {
   public term:string = "";
   public products:any= [
     {name:'pen', price: 50, rating: 5, freedelivery:true},
-    {name:'smartphone', price: 25000, rating: 4.8, freedelivery:true},
+    {name:'smartphone', price: 25000, rating: 3.8, freedelivery:true},
     {name:'Iphone', price: 90000, rating: 5, freedelivery:false},
-    {name:'shirt', price: 2700, rating: 4.6, freedelivery:true},
-    {name:'shoes', price: 5000, rating: 4.3, freedelivery:false},
+    {name:'shirt', price: 2700, rating: 2.6, freedelivery:true},
+    {name:'shoes', price: 5000, rating: 0.3, freedelivery:false},
     {name:'smartwatch', price: 4500, rating: 4.2, freedelivery:true},
-    {name:'laptop', price: 56000, rating: 4.0, freedelivery:false},
+    {name:'laptop', price: 56000, rating: 3.0, freedelivery:false},
     {name:'Ipad', price: 45000, rating: 4.8, freedelivery:true},
-    {name:'charger', price: 2500, rating: 4.4, freedelivery:true},
+    {name:'charger', price: 2500, rating: 2.4, freedelivery:true},
     {name:'powerbank', price: 6000, rating: 4.9, freedelivery:false}
    
   ]

@@ -28,6 +28,8 @@ import { ViewVehicleComponent } from './view-vehicle/view-vehicle.component';
 import { ViewBankaccountComponent } from './view-bankaccount/view-bankaccount.component';
 import { CreateUserComponent } from './create-user/create-user.component';
 import { StudentdetailsComponent } from './studentdetails/studentdetails.component';
+import { ParentComponent } from './parent/parent.component';
+import { Calculator2Component } from './calculator2/calculator2.component';
 
 const routes: Routes = [
   {path:'login', component:LoginComponent},
@@ -57,6 +59,8 @@ const routes: Routes = [
     {path:'edit-vehicle/:id', component:CreateVehicleComponent},
     {path:'create-user', component:CreateUserComponent},
     {path:'studentdetails', component:StudentdetailsComponent},
+    {path:'parent', component:ParentComponent},
+    {path:'calculator2', component:Calculator2Component},
     {path:'', component:WelcomeComponent}
 
   ]},
