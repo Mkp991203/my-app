@@ -1,0 +1,82 @@
+/* General styling for the Amazon cart container */
+.amazon {
+    height: 90%;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: beige;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.amazon h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* General cart styling */
+.cart {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 15px;
+    margin-bottom: 20px;
+    height: 40%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+/* Individual item container styling */
+.cart .amz1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+    height: 100px;
+}
+button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button:hover {
+    background-color: #e68a00;
+}
+
+/* Styling for the view section */
+.view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    height: 200px;
+}
+
+/* Styling for each app-amazon component container */
+.amz2, .amz3, .amz4 {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: indianred;
+}
+
+/* Button styling */
+

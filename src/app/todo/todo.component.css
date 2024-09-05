@@ -1,0 +1,45 @@
+.parent{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.todoform{
+    width: 350px;
+    height: 600px;
+    background-color: rgb(116, 240, 116);
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    border: 2px double;
+}
+
+.todo1{
+    width: 350px;
+    height: 600px;
+    background-color: rgb(113, 201, 235);
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0);
+    border: 2px double;
+}
+
+.todo2{
+    width: 350px;
+    height: 600px;
+    background-color: rgb(219, 73, 102);
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0);
+    border: 2px double;
+}

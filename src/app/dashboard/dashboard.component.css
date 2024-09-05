@@ -74,7 +74,7 @@ body, html {
 
 /* Right-side content area styling */
 .right {
-    background-color: skyblue;
+    background-color: azure;
     flex: 1;
     padding: 20px;
     box-sizing: border-box;

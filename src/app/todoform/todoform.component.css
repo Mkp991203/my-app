@@ -1,0 +1,93 @@
+/* General styling for the form container */
+.form {
+    max-width: 400px;
+    /* margin: 20px auto; */
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    /* background-color: beige; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+/* Header styling */
+.form h3 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* Label styling */
+.form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #f80202;
+    font-size: 14px;
+}
+
+/* Textarea styling */
+.form textarea {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: vertical;
+    margin-bottom: 15px;
+    font-family: inherit;
+}
+
+/* Input styling */
+.form input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Button styling */
+.form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.form button.submit{
+    background-color: dodgerblue;
+}
+.form button.create{
+    background-color: #008a1e;
+}
+.form button.reset{
+    background-color: rgb(182, 51, 77);
+}
+
+/* Button hover effect */
+.form button.submit:hover {
+    background-color: rgb(23, 96, 170);
+}
+.form button.create:hover {
+    background-color: #025614;
+}
+.form button.reset:hover{
+    background-color: rgb(163, 8, 39);
+}
+
+
+/* Styling for spacing between buttons */
+.form button + button {
+    margin-left: 10px;
+}
+
+/* Add a little margin between elements */
+.form br {
+    margin-bottom: 10px;
+}

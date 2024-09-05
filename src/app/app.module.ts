@@ -37,6 +37,18 @@ import { RatingComponent } from './rating/rating.component';
 import { Calculator2Component } from './calculator2/calculator2.component';
 import { OperationsComponent } from './operations/operations.component';
 import { TextareaComponent } from './textarea/textarea.component';
+import { SilblingComponent } from './silbling/silbling.component';
+import { Sibling1Component } from './sibling1/sibling1.component';
+import { Sibling2Component } from './sibling2/sibling2.component';
+import { AmazonComponent } from './amazon/amazon.component';
+import { Amazon1Component } from './amazon1/amazon1.component';
+import { Amazon2Component } from './amazon2/amazon2.component';
+import { Amazon3Component } from './amazon3/amazon3.component';
+import { Amazon4Component } from './amazon4/amazon4.component';
+import { TodoComponent } from './todo/todo.component';
+import { TodoformComponent } from './todoform/todoform.component';
+import { Todo1Component } from './todo1/todo1.component';
+import { Todo2Component } from './todo2/todo2.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +84,19 @@ import { TextareaComponent } from './textarea/textarea.component';
     RatingComponent,
     Calculator2Component,
     OperationsComponent,
-    TextareaComponent
+    TextareaComponent,
+    SilblingComponent,
+    Sibling1Component,
+    Sibling2Component,
+    AmazonComponent,
+    Amazon1Component,
+    Amazon2Component,
+    Amazon3Component,
+    Amazon4Component,
+    TodoComponent,
+    TodoformComponent,
+    Todo1Component,
+    Todo2Component
   ],
   imports: [
     BrowserModule,

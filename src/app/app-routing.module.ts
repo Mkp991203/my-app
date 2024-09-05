@@ -30,6 +30,9 @@ import { CreateUserComponent } from './create-user/create-user.component';
 import { StudentdetailsComponent } from './studentdetails/studentdetails.component';
 import { ParentComponent } from './parent/parent.component';
 import { Calculator2Component } from './calculator2/calculator2.component';
+import { SilblingComponent } from './silbling/silbling.component';
+import { AmazonComponent } from './amazon/amazon.component';
+import { TodoComponent } from './todo/todo.component';
 
 const routes: Routes = [
   {path:'login', component:LoginComponent},
@@ -61,6 +64,9 @@ const routes: Routes = [
     {path:'studentdetails', component:StudentdetailsComponent},
     {path:'parent', component:ParentComponent},
     {path:'calculator2', component:Calculator2Component},
+    {path:'silbling', component:SilblingComponent},
+    {path:'amazon', component:AmazonComponent},
+    {path:'todo', component:TodoComponent},
     {path:'', component:WelcomeComponent}
 
   ]},

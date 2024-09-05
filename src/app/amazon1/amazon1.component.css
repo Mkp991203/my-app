@@ -1,0 +1,35 @@
+
+.amz1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+    height: 100px;
+    width: 40px;
+    text-align: center;
+}
+
+button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+button:hover {
+    background-color: #e68a00;
+}
+h4{
+    text-align: center;
+    margin-left: 30PX;
+}
