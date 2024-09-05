@@ -49,6 +49,8 @@ import { TodoComponent } from './todo/todo.component';
 import { TodoformComponent } from './todoform/todoform.component';
 import { Todo1Component } from './todo1/todo1.component';
 import { Todo2Component } from './todo2/todo2.component';
+import { AboutCompanyComponent } from './about-us/about-company/about-company.component';
+import { AboutUsModule } from './about-us/about-us.module';
 
 @NgModule({
   declarations: [
@@ -103,7 +105,8 @@ import { Todo2Component } from './todo2/todo2.component';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AboutUsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
