@@ -1,17 +1,16 @@
 .parent{
     height: 100%;
     width: 100%;
-    margin: 0;
-    padding: 0;
-    /* background-color: aquamarine; */
+    /* margin: auto;
+    padding: auto; */
+    background-color: aquamarine;
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
 }
 .todoform{
     width: 350px;
     height: 600px;
-    background-color: rgb(116, 240, 116);
+    background: linear-gradient(rgb(7, 82, 147),rgb(37, 203, 209));
     justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
@@ -23,7 +22,7 @@
 .todo1{
     width: 350px;
     height: 600px;
-    background-color: rgb(113, 201, 235);
+    background: linear-gradient(rgb(113, 235, 164),rgb(235, 113, 113));
     justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
@@ -35,7 +34,7 @@
 .todo2{
     width: 350px;
     height: 600px;
-    background-color: rgb(219, 73, 102);
+    background: linear-gradient(rgb(113, 201, 235),hotpink);
     justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;

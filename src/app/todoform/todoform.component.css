@@ -1,9 +1,8 @@
 /* General styling for the form container */
 .form {
     max-width: 400px;
-    /* margin: 20px auto; */
+    margin: 20px;
     padding: 20px;
-    /* border: 1px solid #ddd; */
     border-radius: 8px;
     /* background-color: beige; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,7 +13,7 @@
 .form h3 {
     text-align: center;
     color: black;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     font-size: 25px;
     font-style: italic;
 }
@@ -23,7 +22,7 @@
 .form label {
     display: block;
     margin-bottom: 8px;
-    color: #f80202;
+    color: white;
     font-size: 14px;
 }
 
@@ -49,7 +48,6 @@
 
 /* Button styling */
 .form button {
-    padding: 10px 15px;
     border: none;
     border-radius: 4px;
     background-color: #ff9900;
@@ -62,12 +60,15 @@
 
 .form button.submit{
     background-color: dodgerblue;
+    padding: 7px 25px;
 }
 .form button.create{
     background-color: #008a1e;
+    padding: 10px 40px;
 }
 .form button.reset{
     background-color: rgb(182, 51, 77);
+    padding: 10px 40px;
 }
 
 /* Button hover effect */
