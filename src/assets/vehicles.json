@@ -1,0 +1,47 @@
+[
+    {
+        "Vehicle": "S-class Maybach",
+        "manufacturer": "mercedes",
+        "model": "2023",
+        "type": "Luxury",
+        "fuel": "petrol",
+        "color": "black",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsC18QKVPTyKuhybbiejAexS5ecSOUdjMdHQ&s",
+        "cost": "2.65",
+        "id": "62"
+      },
+      {
+        "Vehicle": "dff",
+        "manufacturer": "fdsf",
+        "model": "fds",
+        "type": "fds",
+        "fuel": "f",
+        "color": "f",
+        "image": "f",
+        "cost": "fuuuu",
+        "id": "68"
+      },
+      {
+        "Vehicle": "Kia Roadster",
+        "manufacturer": "MARUTI",
+        "model": "2024",
+        "type": "ALPHA",
+        "fuel": "DEISEL",
+        "color": null,
+        "image": null,
+        "cost": "1500000",
+        "id": "70",
+        "vehicle": "BALENO "
+      },
+      {
+        "Vehicle": "Innova crysta",
+        "manufacturer": "Toyota",
+        "model": "2024",
+        "type": "suv",
+        "fuel": "Diesels",
+        "color": "black",
+        "image": "https://cdni.autocarindia.com/ExtraImages/20201127050941_Toyota-Innova-Crysta-faceli.jpg",
+        "cost": "300000",
+        "id": "71"
+      }
+]
