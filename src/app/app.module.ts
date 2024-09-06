@@ -52,6 +52,7 @@ import { Todo2Component } from './todo2/todo2.component';
 import { AboutCompanyComponent } from './about-us/about-company/about-company.component';
 import { AboutUsModule } from './about-us/about-us.module';
 import { CapitalDirective } from './capital.directive';
+import { PricePipe } from './price.pipe';
 
 @NgModule({
   declarations: [
@@ -100,7 +101,8 @@ import { CapitalDirective } from './capital.directive';
     TodoformComponent,
     Todo1Component,
     Todo2Component,
-    CapitalDirective
+    CapitalDirective,
+    PricePipe
   ],
   imports: [
     BrowserModule,
