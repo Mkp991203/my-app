@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { User } from '../user';
 
 @Component({
   selector: 'app-home',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  public name:string="asadf";
+  public age:number=25;
+
+  public user:User = {name:'asadf', age:25, email:'adfs@gmail.com'};
 }
